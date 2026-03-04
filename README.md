@@ -31,25 +31,10 @@ These metrics indicate strong classification capability and reliable fracture de
 The project uses a Convolutional Neural Network (CNN) architecture designed for image classification tasks.
 
 Model Pipeline
-X-ray Image
-      ↓
-Image Preprocessing
-(resizing, normalization)
-      ↓
-CNN Feature Extraction
-      ↓
-Fully Connected Layers
-      ↓
-Binary Classification
-(Fracture / No Fracture)
+1- X-ray Image
+2- Image Preprocessing (resizing, normalization)
+3- CNN Feature Extraction
+4- Fully Connected Layers
+5- Binary Classification (Fracture / No Fracture)
 
 The model learns spatial features from X-ray images such as bone edges, discontinuities, and structural anomalies.
-
-🛠️ Technologies Used
-Category	Tools
-Programming	Python
-Deep Learning	TensorFlow, Keras
-Data Processing	NumPy
-Visualization	Matplotlib
-Evaluation	Scikit-learn
-Development	Jupyter Notebook
