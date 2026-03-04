@@ -32,9 +32,13 @@ The project uses a Convolutional Neural Network (CNN) architecture designed for 
 
 Model Pipeline
 1- X-ray Image
+
 2- Image Preprocessing (resizing, normalization)
+
 3- CNN Feature Extraction
+
 4- Fully Connected Layers
+
 5- Binary Classification (Fracture / No Fracture)
 
 The model learns spatial features from X-ray images such as bone edges, discontinuities, and structural anomalies.
