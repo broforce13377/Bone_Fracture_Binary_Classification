@@ -31,6 +31,7 @@ These metrics indicate strong classification capability and reliable fracture de
 The project uses a Convolutional Neural Network (CNN) architecture designed for image classification tasks.
 
 Model Pipeline
+
 1- X-ray Image
 
 2- Image Preprocessing (resizing, normalization)
